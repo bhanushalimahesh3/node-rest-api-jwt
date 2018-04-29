@@ -1,0 +1,29 @@
+{
+  "name": "node_rest_api_jwt",
+  "version": "1.0.0",
+  "description": "Build REST API with nodejs, express, mongodb and jwt",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "REST",
+    "API",
+    "Mongodb"
+  ],
+  "author": "Mahesh Bhanushali",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "2.0.1",
+    "body-parser": "1.18.2",
+    "express": "4.16.3",
+    "jsonwebtoken": "8.2.1",
+    "mongoose": "5.0.13",
+    "morgan": "1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "4.19.1"
+  }
+}
